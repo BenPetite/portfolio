@@ -101,24 +101,53 @@ textarea {
 
 /* global classes */
 .BGheaderfooter{
-  background-color: #E58F65;
+  color : white;
+  background-color: black;
+}
+
+.icones{
+  padding-bottom: 10px;
 }
 /* common rules */
+h3{
+  color : white;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: black;
+  padding: 5px auto;
+}
 
+ul{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0;
+}
 /* nav */
 
 /* header */
 header{
-
 }
 /* footer */
 footer{
-  
+
 }
 /* main */
+main{
+  font-family: 'Roboto', sans-serif;
+}
 
+main p{
+  text-align: justify;
+}
 
-
+main img{
+  width: 100px;
+  float: left;
+  margin : 10px;
+  margin-top: 0;
+}
 
 
 
