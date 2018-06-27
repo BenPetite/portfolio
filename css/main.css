@@ -98,22 +98,36 @@ textarea {
    ========================================================================== */
 
 /* #E58F65; middle red */
+/* #E8985E big foot feet */
+/* #F18805 tangerine */
+/* #C67005 */
 
 /* global classes */
 .BGheaderfooter{
   color : white;
-  background-color: #343E3D;
+  background-color: #C67005;
 }
 
 .icones{
   padding-bottom: 10px;
 }
+
+.indexSection{
+  margin: 20px 20px;
+  padding-top: 10px;
+  border: solid black 1px;
+  border-radius: 5px;
+}
+
+.contactSection{
+  padding-top: 10px;
+  border: solid black 1px;
+  border-radius: 5px;
+}
 /* common rules */
 h3{
-  color : white;
   text-align: center;
   font-size: 1.5em;
-  background-color: #343E3D;
   padding: 5px auto;
 }
 
@@ -125,10 +139,36 @@ ul{
   padding-left: 0;
 }
 /* nav */
+nav{
+  background-color: white;
+}
 
+nav a{
+  color : #E58F65;
+}
+
+nav button{
+  color: orange;
+}
 /* header */
 header{
+  background-image: url("../img/ampoules.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
 }
+
+#headerBack {
+  color : white;
+  background-color: #343E3D;
+  opacity: 0.6;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* footer */
 footer{
 
@@ -144,19 +184,13 @@ main p{
 
 main img{
   width: 100px;
-  float: left;
   margin : 10px;
   margin-top: 0;
 }
 
-
-
-
-
-
-
-
-
+main article{
+  margin: auto 20px;
+}
 
 /* ==========================================================================
    Helper classes

@@ -7,11 +7,11 @@
   <title>accueil</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -22,7 +22,7 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 <!-- start nav -->
-<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+<nav class="navbar navbar-expand-md fixed-top">
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -42,54 +42,72 @@
 </nav>
 <!-- end nav -->
 <!-- start header -->
-<header class="jumbotron jumbotron-fluid text-center BGheaderfooter">
-  <section class="container">
-    <h1 class="display-4">Benoît Petite</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-  </section>
+<header class="jumbotron jumbotron-fluid text-center py-0">
+  <div id="headerBack">
+    <section class="container">
+      <h1 class="display-4">Benoît Petite</h1>
+      <p class="lead">apprenti développeur web</p>
+    </section>
+  </div>
 </header>
 <!-- end header -->
 <!-- start main -->
-<main class="container">
+<main class="container my-5">
   <article class="">
     <img src="img/photo.jpg" alt="portrait">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Infographiste-metteur en page de formation, j'étudie pour associer la compétence de développeur pour le web à mon métier.</p>
   </article>
-  <section>
+  <section class="indexSection">
     <h3>langages</h3>
     <div class="icones">
       <ul>
-        <li>html <i class="fab fa-html5"></i></li>
-        <li>css <i class="fab fa-css3-alt"></i></li>
-        <li>php</li>
-        <li>js</li>
+        <li>
+          <img src="img/html.png" alt="logo html" title="html 5">
+        </li>
+        <li>
+          <img src="img/css.png" alt="logo css" title="css 3">
+        </li>
+        <li>
+          <img src="img/php.png" alt="logo php" title="php">
+        </li>
+        <li>
+          <img src="img/js.png" alt="logo javascript" title="javascript">
+        </li>
       </ul>
     </div>
     <h3>outils</h3>
     <div class="icones">
       <ul>
-        <li>atom</li>
-        <li>bootstrap</li>
-        <li>boilerplate</li>
-        <li>git</li>
+        <li>
+          <img src="img/atom.png" alt="logo atom" title="Atom">
+        </li>
+        <li>
+          <img src="img/bootstrap.png" alt="logo bootstrap" title="Bootstrap">
+        </li>
+        <li>
+          <img src="img/boiler.png" alt="logo boilerplate" title="Boilerplate">
+        </li>
+        <li>
+          <img src="img/git.png" alt="logo git" title="Git Bash">
+        </li>
       </ul>
     </div>
   </section>
 </main>
 <!-- end main -->
 <!-- start footer -->
-<footer class="jumbotron jumbotron-fluid text-center BGheaderfooter">
+<footer class="jumbotron jumbotron-fluid text-center BGheaderfooter mb-0">
   <div class="container">
-    <p><small>réalisé par Benoît Petite.<small></p>
+    <p>réalisé par Benoît Petite</p>
     <ul class="nav d-flex justify-content-center">
       <li class="nav-item">
-        <a class="nav-link active text-white" href="#">Active</a>
+        <a class="nav-link active text-white" href="https://twitter.com/"><i class="fab fa-2x fa-twitter"></i></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">Link</a>
+        <a class="nav-link text-white" href="https://github.com/BenPetite"><i class="fab fa-2x fa-github"></i></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">Link</a>
+        <a class="nav-link text-white" href="https://www.linkedin.com/in/ben-parva-bb977b93/"><i class="fab fa-2x fa-linkedin-in"></i></a>
       </li>
     </ul>
   </div>
