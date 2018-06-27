@@ -102,7 +102,7 @@ textarea {
 /* global classes */
 .BGheaderfooter{
   color : white;
-  background-color: black;
+  background-color: #343E3D;
 }
 
 .icones{
@@ -113,7 +113,7 @@ h3{
   color : white;
   text-align: center;
   font-size: 1.5em;
-  background-color: black;
+  background-color: #343E3D;
   padding: 5px auto;
 }
 
