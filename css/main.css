@@ -113,16 +113,32 @@ textarea {
 }
 
 .indexSection{
-  margin: 20px 20px;
   padding-top: 10px;
   border: solid black 1px;
   border-radius: 5px;
 }
 
 .contactSection{
+  margin: 20px 20px;
+  padding: 10px;
+  border: solid black 1px;
+  border-radius: 5px;
+}
+
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exemplesSection{
+  margin: 20px;
   padding-top: 10px;
   border: solid black 1px;
   border-radius: 5px;
+}
+
+.exemplesArticle{
 }
 /* common rules */
 h3{
@@ -144,7 +160,8 @@ nav{
 }
 
 nav a{
-  color : #E58F65;
+  font-size: 1.2em;
+  color : #C67005;
 }
 
 nav button{
@@ -178,6 +195,10 @@ main{
   font-family: 'Roboto', sans-serif;
 }
 
+main a{
+  color: #C67005;
+}
+
 main p{
   text-align: justify;
 }
@@ -190,6 +211,15 @@ main img{
 
 main article{
   margin: auto 20px;
+}
+
+main input, textarea{
+  margin-bottom: 5px;
+}
+
+main textarea{
+  width: 500px;
+  height: 150px;
 }
 
 /* ==========================================================================
