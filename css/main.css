@@ -131,19 +131,25 @@ textarea {
   align-items: center;
 }
 
-.exemplesSection{
+.exemplesDiv{
   margin: 20px;
   padding-top: 10px;
+  padding-bottom: 15px;
   border: solid black 1px;
   border-radius: 5px;
 }
 
-.exemplesArticle{
+.boutonExemples{
+  color : white;
+  background-color: #C67005;
+  padding: 5px 20px;
+  margin: 30px;
+  border-radius: 3px;
 }
+
 /* common rules */
-h3{
+h4{
   text-align: center;
-  font-size: 1.5em;
   padding: 5px auto;
 }
 
@@ -199,19 +205,34 @@ main a{
   color: #C67005;
 }
 
-main p{
-  text-align: justify;
+ main p{
+  text-align: center;
+}
+
+main div{
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 main img{
   width: 100px;
-  margin : 10px;
-  margin-top: 0;
+  margin: 10px auto;
 }
 
 main article{
+  font-size: 1.2em;
   margin: auto 20px;
 }
+
+main section img{
+  width: 100px;
+}
+
+main li{
+  margin: 5px;
+}
+/* contact */
 
 main input, textarea{
   margin-bottom: 5px;
